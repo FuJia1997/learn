@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E441A5D12399E9A300943948 /* bookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E441A5D02399E9A300943948 /* bookTableViewCell.m */; };
 		E45A66F32398C2B500DE0680 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45A66F22398C2B500DE0680 /* AppDelegate.m */; };
 		E45A66F62398C2B500DE0680 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45A66F52398C2B500DE0680 /* ViewController.m */; };
 		E45A66F92398C2B500DE0680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45A66F72398C2B500DE0680 /* Main.storyboard */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E441A5CF2399E9A300943948 /* bookTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bookTableViewCell.h; sourceTree = "<group>"; };
+		E441A5D02399E9A300943948 /* bookTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookTableViewCell.m; sourceTree = "<group>"; };
 		E45A66EE2398C2B500DE0680 /* UITableView cell复用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView cell复用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45A66F12398C2B500DE0680 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E45A66F22398C2B500DE0680 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				E45A67002398C2B600DE0680 /* main.m */,
 				E45A673E2398C88C00DE0680 /* Model.h */,
 				E45A673F2398C88C00DE0680 /* Model.m */,
+				E441A5CF2399E9A300943948 /* bookTableViewCell.h */,
+				E441A5D02399E9A300943948 /* bookTableViewCell.m */,
 			);
 			path = "UITableView cell复用";
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E441A5D12399E9A300943948 /* bookTableViewCell.m in Sources */,
 				E45A66F62398C2B500DE0680 /* ViewController.m in Sources */,
 				E45A67012398C2B600DE0680 /* main.m in Sources */,
 				E45A66F32398C2B500DE0680 /* AppDelegate.m in Sources */,

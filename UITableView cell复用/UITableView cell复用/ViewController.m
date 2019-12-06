@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Model.h"
+#import "bookTableViewCell.h"
 
 @interface ViewController ()<UITableViewDataSource>
 
@@ -38,30 +39,14 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *ID = @"book";
     
-    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:ID];
+    Model *model = self.dataArray[indexPath.row];
+    bookTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:ID];
     
     if (cell == nil){
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
-        
-        Model *model = self.dataArray[indexPath.row];
-        UIImageView *iconImageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];
-        iconImageView.image = [UIImage imageNamed:model.icon];
-
-        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 10, self.view.frame.size.width - 120, 30)];
-        titleLabel.text = model.title;
-        
-        UILabel *detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 50, self.view.frame.size.width - 120, 15)];
-        detailLabel.text = model.detail;
-        
-        UILabel *priceLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 70, self.view.frame.size.width - 120, 30)];
-        priceLabel.text = model.price;
-        priceLabel.textColor = [UIColor redColor];
-        
-        [cell.contentView addSubview:iconImageView];
-        [cell.contentView addSubview:titleLabel];
-        [cell.contentView addSubview:detailLabel];
-        [cell.contentView addSubview:priceLabel];
+        cell = [[bookTableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
     }
+    
+    cell.model = model;
     return cell;
 }
 
