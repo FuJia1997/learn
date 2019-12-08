@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E45DE19E239B4B21008CF5B0 /* Function1.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE19D239B4B21008CF5B0 /* Function1.m */; };
+		E45DE1A1239B4E11008CF5B0 /* Function2.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1A0239B4E11008CF5B0 /* Function2.m */; };
+		E45DE1A4239B515F008CF5B0 /* Function3.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1A3239B515F008CF5B0 /* Function3.m */; };
 		E4BB67F0239A9B13003E43A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB67EF239A9B13003E43A5 /* AppDelegate.m */; };
 		E4BB67F3239A9B13003E43A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB67F2239A9B13003E43A5 /* ViewController.m */; };
 		E4BB67F6239A9B13003E43A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BB67F4239A9B13003E43A5 /* Main.storyboard */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E45DE19C239B4B21008CF5B0 /* Function1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function1.h; sourceTree = "<group>"; };
+		E45DE19D239B4B21008CF5B0 /* Function1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Function1.m; sourceTree = "<group>"; };
+		E45DE19F239B4E11008CF5B0 /* Function2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function2.h; sourceTree = "<group>"; };
+		E45DE1A0239B4E11008CF5B0 /* Function2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Function2.m; sourceTree = "<group>"; };
+		E45DE1A2239B515F008CF5B0 /* Function3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function3.h; sourceTree = "<group>"; };
+		E45DE1A3239B515F008CF5B0 /* Function3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Function3.m; sourceTree = "<group>"; };
 		E4BB67EB239A9B13003E43A5 /* 链式调用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式调用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BB67EE239A9B13003E43A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4BB67EF239A9B13003E43A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +124,12 @@
 				E4BB67FD239A9B14003E43A5 /* main.m */,
 				E4BB6826239A9DED003E43A5 /* LearnManager.h */,
 				E4BB6827239A9DED003E43A5 /* LearnManager.m */,
+				E45DE19C239B4B21008CF5B0 /* Function1.h */,
+				E45DE19D239B4B21008CF5B0 /* Function1.m */,
+				E45DE19F239B4E11008CF5B0 /* Function2.h */,
+				E45DE1A0239B4E11008CF5B0 /* Function2.m */,
+				E45DE1A2239B515F008CF5B0 /* Function3.h */,
+				E45DE1A3239B515F008CF5B0 /* Function3.m */,
 			);
 			path = "链式调用";
 			sourceTree = "<group>";
@@ -267,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45DE1A4239B515F008CF5B0 /* Function3.m in Sources */,
+				E45DE1A1239B4E11008CF5B0 /* Function2.m in Sources */,
 				E4BB67F3239A9B13003E43A5 /* ViewController.m in Sources */,
+				E45DE19E239B4B21008CF5B0 /* Function1.m in Sources */,
 				E4BB67FE239A9B14003E43A5 /* main.m in Sources */,
 				E4BB6828239A9DED003E43A5 /* LearnManager.m in Sources */,
 				E4BB67F0239A9B13003E43A5 /* AppDelegate.m in Sources */,

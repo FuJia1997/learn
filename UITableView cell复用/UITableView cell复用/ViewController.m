@@ -10,7 +10,7 @@
 #import "Model.h"
 #import "bookTableViewCell.h"
 
-@interface ViewController ()<UITableViewDataSource>
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property(nonatomic, strong)UITableView *tableView;
 @property(nonatomic ,copy)NSMutableArray *dataArray;
@@ -28,8 +28,26 @@
 - (void)setUI{
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     self.tableView.dataSource = self;
+    self.tableView.delegate = self;
     self.tableView.rowHeight = 100;
     [self.view addSubview:self.tableView];
+    [self setHeadView];
+}
+
+- (void)setHeadView{
+    UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
+    self.tableView.tableHeaderView = headView;
+    UIScrollView *sv = [[UIScrollView alloc] initWithFrame:headView.frame];
+    sv.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width * 5, 200);
+    sv.pagingEnabled = YES;
+    
+    for (int i = 0; i < 5; i++){
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(i * [UIScreen mainScreen].bounds.size.width, 0, [UIScreen mainScreen].bounds.size.width, 200)];
+                                  
+        imageView.image =  [UIImage imageNamed:[NSString stringWithFormat:@"风景_%d.jpg", i + 1]];
+        [sv addSubview:imageView];
+    }
+    [headView addSubview:sv];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

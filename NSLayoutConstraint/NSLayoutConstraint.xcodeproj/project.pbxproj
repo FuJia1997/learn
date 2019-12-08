@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45DE1B3239B579A008CF5B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1B2239B579A008CF5B0 /* AppDelegate.m */; };
+		E45DE1B6239B579A008CF5B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1B5239B579A008CF5B0 /* ViewController.m */; };
+		E45DE1B9239B579A008CF5B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45DE1B7239B579A008CF5B0 /* Main.storyboard */; };
+		E45DE1BB239B579C008CF5B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45DE1BA239B579C008CF5B0 /* Assets.xcassets */; };
+		E45DE1BE239B579C008CF5B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45DE1BC239B579C008CF5B0 /* LaunchScreen.storyboard */; };
+		E45DE1C1239B579C008CF5B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1C0239B579C008CF5B0 /* main.m */; };
+		E45DE1CB239B579C008CF5B0 /* NSLayoutConstraintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1CA239B579C008CF5B0 /* NSLayoutConstraintTests.m */; };
+		E45DE1D6239B579C008CF5B0 /* NSLayoutConstraintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DE1D5239B579C008CF5B0 /* NSLayoutConstraintUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45DE1C7239B579C008CF5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45DE1A6239B579A008CF5B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45DE1AD239B579A008CF5B0;
+			remoteInfo = NSLayoutConstraint;
+		};
+		E45DE1D2239B579C008CF5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45DE1A6239B579A008CF5B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45DE1AD239B579A008CF5B0;
+			remoteInfo = NSLayoutConstraint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45DE1AE239B579A008CF5B0 /* NSLayoutConstraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSLayoutConstraint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45DE1B1239B579A008CF5B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E45DE1B2239B579A008CF5B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E45DE1B4239B579A008CF5B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E45DE1B5239B579A008CF5B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E45DE1B8239B579A008CF5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45DE1BA239B579C008CF5B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E45DE1BD239B579C008CF5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E45DE1BF239B579C008CF5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45DE1C0239B579C008CF5B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45DE1C6239B579C008CF5B0 /* NSLayoutConstraintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSLayoutConstraintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45DE1CA239B579C008CF5B0 /* NSLayoutConstraintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLayoutConstraintTests.m; sourceTree = "<group>"; };
+		E45DE1CC239B579C008CF5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45DE1D1239B579C008CF5B0 /* NSLayoutConstraintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSLayoutConstraintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45DE1D5239B579C008CF5B0 /* NSLayoutConstraintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLayoutConstraintUITests.m; sourceTree = "<group>"; };
+		E45DE1D7239B579C008CF5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45DE1AB239B579A008CF5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45DE1C3239B579C008CF5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45DE1CE239B579C008CF5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45DE1A5239B579A008CF5B0 = {
+			isa = PBXGroup;
+			children = (
+				E45DE1B0239B579A008CF5B0 /* NSLayoutConstraint */,
+				E45DE1C9239B579C008CF5B0 /* NSLayoutConstraintTests */,
+				E45DE1D4239B579C008CF5B0 /* NSLayoutConstraintUITests */,
+				E45DE1AF239B579A008CF5B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45DE1AF239B579A008CF5B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45DE1AE239B579A008CF5B0 /* NSLayoutConstraint.app */,
+				E45DE1C6239B579C008CF5B0 /* NSLayoutConstraintTests.xctest */,
+				E45DE1D1239B579C008CF5B0 /* NSLayoutConstraintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45DE1B0239B579A008CF5B0 /* NSLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				E45DE1B1239B579A008CF5B0 /* AppDelegate.h */,
+				E45DE1B2239B579A008CF5B0 /* AppDelegate.m */,
+				E45DE1B4239B579A008CF5B0 /* ViewController.h */,
+				E45DE1B5239B579A008CF5B0 /* ViewController.m */,
+				E45DE1B7239B579A008CF5B0 /* Main.storyboard */,
+				E45DE1BA239B579C008CF5B0 /* Assets.xcassets */,
+				E45DE1BC239B579C008CF5B0 /* LaunchScreen.storyboard */,
+				E45DE1BF239B579C008CF5B0 /* Info.plist */,
+				E45DE1C0239B579C008CF5B0 /* main.m */,
+			);
+			path = NSLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		E45DE1C9239B579C008CF5B0 /* NSLayoutConstraintTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45DE1CA239B579C008CF5B0 /* NSLayoutConstraintTests.m */,
+				E45DE1CC239B579C008CF5B0 /* Info.plist */,
+			);
+			path = NSLayoutConstraintTests;
+			sourceTree = "<group>";
+		};
+		E45DE1D4239B579C008CF5B0 /* NSLayoutConstraintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E45DE1D5239B579C008CF5B0 /* NSLayoutConstraintUITests.m */,
+				E45DE1D7239B579C008CF5B0 /* Info.plist */,
+			);
+			path = NSLayoutConstraintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45DE1AD239B579A008CF5B0 /* NSLayoutConstraint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45DE1DA239B579C008CF5B0 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint" */;
+			buildPhases = (
+				E45DE1AA239B579A008CF5B0 /* Sources */,
+				E45DE1AB239B579A008CF5B0 /* Frameworks */,
+				E45DE1AC239B579A008CF5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLayoutConstraint;
+			productName = NSLayoutConstraint;
+			productReference = E45DE1AE239B579A008CF5B0 /* NSLayoutConstraint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45DE1C5239B579C008CF5B0 /* NSLayoutConstraintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45DE1DD239B579C008CF5B0 /* Build configuration list for PBXNativeTarget "NSLayoutConstraintTests" */;
+			buildPhases = (
+				E45DE1C2239B579C008CF5B0 /* Sources */,
+				E45DE1C3239B579C008CF5B0 /* Frameworks */,
+				E45DE1C4239B579C008CF5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45DE1C8239B579C008CF5B0 /* PBXTargetDependency */,
+			);
+			name = NSLayoutConstraintTests;
+			productName = NSLayoutConstraintTests;
+			productReference = E45DE1C6239B579C008CF5B0 /* NSLayoutConstraintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E45DE1D0239B579C008CF5B0 /* NSLayoutConstraintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45DE1E0239B579C008CF5B0 /* Build configuration list for PBXNativeTarget "NSLayoutConstraintUITests" */;
+			buildPhases = (
+				E45DE1CD239B579C008CF5B0 /* Sources */,
+				E45DE1CE239B579C008CF5B0 /* Frameworks */,
+				E45DE1CF239B579C008CF5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45DE1D3239B579C008CF5B0 /* PBXTargetDependency */,
+			);
+			name = NSLayoutConstraintUITests;
+			productName = NSLayoutConstraintUITests;
+			productReference = E45DE1D1239B579C008CF5B0 /* NSLayoutConstraintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45DE1A6239B579A008CF5B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = fujia;
+				TargetAttributes = {
+					E45DE1AD239B579A008CF5B0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E45DE1C5239B579C008CF5B0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E45DE1AD239B579A008CF5B0;
+					};
+					E45DE1D0239B579C008CF5B0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E45DE1AD239B579A008CF5B0;
+					};
+				};
+			};
+			buildConfigurationList = E45DE1A9239B579A008CF5B0 /* Build configuration list for PBXProject "NSLayoutConstraint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45DE1A5239B579A008CF5B0;
+			productRefGroup = E45DE1AF239B579A008CF5B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45DE1AD239B579A008CF5B0 /* NSLayoutConstraint */,
+				E45DE1C5239B579C008CF5B0 /* NSLayoutConstraintTests */,
+				E45DE1D0239B579C008CF5B0 /* NSLayoutConstraintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45DE1AC239B579A008CF5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45DE1BE239B579C008CF5B0 /* LaunchScreen.storyboard in Resources */,
+				E45DE1BB239B579C008CF5B0 /* Assets.xcassets in Resources */,
+				E45DE1B9239B579A008CF5B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45DE1C4239B579C008CF5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45DE1CF239B579C008CF5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45DE1AA239B579A008CF5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45DE1B6239B579A008CF5B0 /* ViewController.m in Sources */,
+				E45DE1C1239B579C008CF5B0 /* main.m in Sources */,
+				E45DE1B3239B579A008CF5B0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45DE1C2239B579C008CF5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45DE1CB239B579C008CF5B0 /* NSLayoutConstraintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45DE1CD239B579C008CF5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45DE1D6239B579C008CF5B0 /* NSLayoutConstraintUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45DE1C8239B579C008CF5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45DE1AD239B579A008CF5B0 /* NSLayoutConstraint */;
+			targetProxy = E45DE1C7239B579C008CF5B0 /* PBXContainerItemProxy */;
+		};
+		E45DE1D3239B579C008CF5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45DE1AD239B579A008CF5B0 /* NSLayoutConstraint */;
+			targetProxy = E45DE1D2239B579C008CF5B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45DE1B7239B579A008CF5B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45DE1B8239B579A008CF5B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E45DE1BC239B579C008CF5B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45DE1BD239B579C008CF5B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45DE1D8239B579C008CF5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45DE1D9239B579C008CF5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45DE1DB239B579C008CF5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSLayoutConstraint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fujia.NSLayoutConstraint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E45DE1DC239B579C008CF5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSLayoutConstraint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fujia.NSLayoutConstraint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E45DE1DE239B579C008CF5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSLayoutConstraintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fujia.NSLayoutConstraintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSLayoutConstraint.app/NSLayoutConstraint";
+			};
+			name = Debug;
+		};
+		E45DE1DF239B579C008CF5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSLayoutConstraintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fujia.NSLayoutConstraintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSLayoutConstraint.app/NSLayoutConstraint";
+			};
+			name = Release;
+		};
+		E45DE1E1239B579C008CF5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSLayoutConstraintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fujia.NSLayoutConstraintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSLayoutConstraint;
+			};
+			name = Debug;
+		};
+		E45DE1E2239B579C008CF5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSLayoutConstraintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fujia.NSLayoutConstraintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSLayoutConstraint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45DE1A9239B579A008CF5B0 /* Build configuration list for PBXProject "NSLayoutConstraint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45DE1D8239B579C008CF5B0 /* Debug */,
+				E45DE1D9239B579C008CF5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45DE1DA239B579C008CF5B0 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45DE1DB239B579C008CF5B0 /* Debug */,
+				E45DE1DC239B579C008CF5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45DE1DD239B579C008CF5B0 /* Build configuration list for PBXNativeTarget "NSLayoutConstraintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45DE1DE239B579C008CF5B0 /* Debug */,
+				E45DE1DF239B579C008CF5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45DE1E0239B579C008CF5B0 /* Build configuration list for PBXNativeTarget "NSLayoutConstraintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45DE1E1239B579C008CF5B0 /* Debug */,
+				E45DE1E2239B579C008CF5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45DE1A6239B579A008CF5B0 /* Project object */;
+}

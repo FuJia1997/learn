@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45D8F03239C9C4E00C3C3C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F02239C9C4E00C3C3C6 /* AppDelegate.m */; };
+		E45D8F06239C9C4E00C3C3C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F05239C9C4E00C3C3C6 /* ViewController.m */; };
+		E45D8F09239C9C4E00C3C3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F07239C9C4E00C3C3C6 /* Main.storyboard */; };
+		E45D8F0B239C9C5000C3C3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F0A239C9C5000C3C3C6 /* Assets.xcassets */; };
+		E45D8F0E239C9C5000C3C3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F0C239C9C5000C3C3C6 /* LaunchScreen.storyboard */; };
+		E45D8F11239C9C5000C3C3C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F10239C9C5000C3C3C6 /* main.m */; };
+		E45D8F1B239C9C5000C3C3C6 /* UITableViewCell_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F1A239C9C5000C3C3C6 /* UITableViewCell_____Tests.m */; };
+		E45D8F26239C9C5000C3C3C6 /* UITableViewCell_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F25239C9C5000C3C3C6 /* UITableViewCell_____UITests.m */; };
+		E45D8F36239C9D9F00C3C3C6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F35239C9D9F00C3C3C6 /* Model.m */; };
+		E45D8F3B239C9DFE00C3C3C6 /* StatusesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F3A239C9DFE00C3C3C6 /* StatusesCell.m */; };
+		E45D8F3E239C9E6800C3C3C6 /* StatusesFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D8F3D239C9E6800C3C3C6 /* StatusesFrame.m */; };
+		E45D8F40239C9EAE00C3C3C6 /* Quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F3F239C9EAE00C3C3C6 /* Quotes.plist */; };
+		E45D8F56239CA57A00C3C3C6 /* 莎士比亚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F4D239CA57A00C3C3C6 /* 莎士比亚.jpg */; };
+		E45D8F57239CA57A00C3C3C6 /* 契诃夫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F4E239CA57A00C3C3C6 /* 契诃夫.jpg */; };
+		E45D8F58239CA57A00C3C3C6 /* 柳宗元.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F4F239CA57A00C3C3C6 /* 柳宗元.jpg */; };
+		E45D8F59239CA57A00C3C3C6 /* 列宁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F50239CA57A00C3C3C6 /* 列宁.jpg */; };
+		E45D8F5A239CA57A00C3C3C6 /* 佛洛伊德.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F51239CA57A00C3C3C6 /* 佛洛伊德.jpg */; };
+		E45D8F5B239CA57A00C3C3C6 /* 卡耐基.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F52239CA57A00C3C3C6 /* 卡耐基.jpg */; };
+		E45D8F5C239CA57A00C3C3C6 /* 车尔尼雪夫斯基.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F53239CA57A00C3C3C6 /* 车尔尼雪夫斯基.jpg */; };
+		E45D8F5D239CA57A00C3C3C6 /* 周恩来.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F54239CA57A00C3C3C6 /* 周恩来.jpg */; };
+		E45D8F5E239CA57A00C3C3C6 /* 鲁迅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F55239CA57A00C3C3C6 /* 鲁迅.jpg */; };
+		E45D8F61239CA58000C3C3C6 /* 会员.png in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F60239CA58000C3C3C6 /* 会员.png */; };
+		E45D8F64239CCA3700C3C3C6 /* content_柳宗元.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E45D8F63239CCA3700C3C3C6 /* content_柳宗元.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45D8F17239C9C5000C3C3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45D8EF6239C9C4E00C3C3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45D8EFD239C9C4E00C3C3C6;
+			remoteInfo = "UITableViewCell自适应高度";
+		};
+		E45D8F22239C9C5000C3C3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45D8EF6239C9C4E00C3C3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45D8EFD239C9C4E00C3C3C6;
+			remoteInfo = "UITableViewCell自适应高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45D8EFE239C9C4E00C3C3C6 /* UITableViewCell自适应高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewCell自适应高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D8F01239C9C4E00C3C3C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E45D8F02239C9C4E00C3C3C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E45D8F04239C9C4E00C3C3C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E45D8F05239C9C4E00C3C3C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E45D8F08239C9C4E00C3C3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45D8F0A239C9C5000C3C3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E45D8F0D239C9C5000C3C3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E45D8F0F239C9C5000C3C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45D8F10239C9C5000C3C3C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45D8F16239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewCell自适应高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D8F1A239C9C5000C3C3C6 /* UITableViewCell_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell_____Tests.m"; sourceTree = "<group>"; };
+		E45D8F1C239C9C5000C3C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45D8F21239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewCell自适应高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D8F25239C9C5000C3C3C6 /* UITableViewCell_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell_____UITests.m"; sourceTree = "<group>"; };
+		E45D8F27239C9C5000C3C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45D8F34239C9D9F00C3C3C6 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		E45D8F35239C9D9F00C3C3C6 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		E45D8F39239C9DFE00C3C3C6 /* StatusesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusesCell.h; sourceTree = "<group>"; };
+		E45D8F3A239C9DFE00C3C3C6 /* StatusesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusesCell.m; sourceTree = "<group>"; };
+		E45D8F3C239C9E6800C3C3C6 /* StatusesFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusesFrame.h; sourceTree = "<group>"; };
+		E45D8F3D239C9E6800C3C3C6 /* StatusesFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusesFrame.m; sourceTree = "<group>"; };
+		E45D8F3F239C9EAE00C3C3C6 /* Quotes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Quotes.plist; sourceTree = "<group>"; };
+		E45D8F4D239CA57A00C3C3C6 /* 莎士比亚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "莎士比亚.jpg"; sourceTree = "<group>"; };
+		E45D8F4E239CA57A00C3C3C6 /* 契诃夫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "契诃夫.jpg"; sourceTree = "<group>"; };
+		E45D8F4F239CA57A00C3C3C6 /* 柳宗元.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柳宗元.jpg"; sourceTree = "<group>"; };
+		E45D8F50239CA57A00C3C3C6 /* 列宁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "列宁.jpg"; sourceTree = "<group>"; };
+		E45D8F51239CA57A00C3C3C6 /* 佛洛伊德.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "佛洛伊德.jpg"; sourceTree = "<group>"; };
+		E45D8F52239CA57A00C3C3C6 /* 卡耐基.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡耐基.jpg"; sourceTree = "<group>"; };
+		E45D8F53239CA57A00C3C3C6 /* 车尔尼雪夫斯基.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "车尔尼雪夫斯基.jpg"; sourceTree = "<group>"; };
+		E45D8F54239CA57A00C3C3C6 /* 周恩来.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "周恩来.jpg"; sourceTree = "<group>"; };
+		E45D8F55239CA57A00C3C3C6 /* 鲁迅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鲁迅.jpg"; sourceTree = "<group>"; };
+		E45D8F60239CA58000C3C3C6 /* 会员.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会员.png"; sourceTree = "<group>"; };
+		E45D8F63239CCA3700C3C3C6 /* content_柳宗元.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "content_柳宗元.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45D8EFB239C9C4E00C3C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D8F13239C9C5000C3C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D8F1E239C9C5000C3C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45D8EF5239C9C4E00C3C3C6 = {
+			isa = PBXGroup;
+			children = (
+				E45D8F00239C9C4E00C3C3C6 /* UITableViewCell自适应高度 */,
+				E45D8F19239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests */,
+				E45D8F24239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests */,
+				E45D8EFF239C9C4E00C3C3C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45D8EFF239C9C4E00C3C3C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8EFE239C9C4E00C3C3C6 /* UITableViewCell自适应高度.app */,
+				E45D8F16239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests.xctest */,
+				E45D8F21239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45D8F00239C9C4E00C3C3C6 /* UITableViewCell自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F3F239C9EAE00C3C3C6 /* Quotes.plist */,
+				E45D8F62239CC9B600C3C3C6 /* 内容照片 */,
+				E45D8F5F239CA58000C3C3C6 /* 会员标 */,
+				E45D8F4C239CA57A00C3C3C6 /* 名人头像 */,
+				E45D8F38239C9DDF00C3C3C6 /* View */,
+				E45D8F37239C9DBE00C3C3C6 /* Controller */,
+				E45D8F33239C9D8600C3C3C6 /* Model */,
+				E45D8F01239C9C4E00C3C3C6 /* AppDelegate.h */,
+				E45D8F02239C9C4E00C3C3C6 /* AppDelegate.m */,
+				E45D8F07239C9C4E00C3C3C6 /* Main.storyboard */,
+				E45D8F0A239C9C5000C3C3C6 /* Assets.xcassets */,
+				E45D8F0C239C9C5000C3C3C6 /* LaunchScreen.storyboard */,
+				E45D8F0F239C9C5000C3C3C6 /* Info.plist */,
+				E45D8F10239C9C5000C3C3C6 /* main.m */,
+			);
+			path = "UITableViewCell自适应高度";
+			sourceTree = "<group>";
+		};
+		E45D8F19239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F1A239C9C5000C3C3C6 /* UITableViewCell_____Tests.m */,
+				E45D8F1C239C9C5000C3C3C6 /* Info.plist */,
+			);
+			path = "UITableViewCell自适应高度Tests";
+			sourceTree = "<group>";
+		};
+		E45D8F24239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F25239C9C5000C3C3C6 /* UITableViewCell_____UITests.m */,
+				E45D8F27239C9C5000C3C3C6 /* Info.plist */,
+			);
+			path = "UITableViewCell自适应高度UITests";
+			sourceTree = "<group>";
+		};
+		E45D8F33239C9D8600C3C3C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F34239C9D9F00C3C3C6 /* Model.h */,
+				E45D8F35239C9D9F00C3C3C6 /* Model.m */,
+				E45D8F3C239C9E6800C3C3C6 /* StatusesFrame.h */,
+				E45D8F3D239C9E6800C3C3C6 /* StatusesFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E45D8F37239C9DBE00C3C3C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F04239C9C4E00C3C3C6 /* ViewController.h */,
+				E45D8F05239C9C4E00C3C3C6 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E45D8F38239C9DDF00C3C3C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F39239C9DFE00C3C3C6 /* StatusesCell.h */,
+				E45D8F3A239C9DFE00C3C3C6 /* StatusesCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E45D8F4C239CA57A00C3C3C6 /* 名人头像 */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F4D239CA57A00C3C3C6 /* 莎士比亚.jpg */,
+				E45D8F4E239CA57A00C3C3C6 /* 契诃夫.jpg */,
+				E45D8F4F239CA57A00C3C3C6 /* 柳宗元.jpg */,
+				E45D8F50239CA57A00C3C3C6 /* 列宁.jpg */,
+				E45D8F51239CA57A00C3C3C6 /* 佛洛伊德.jpg */,
+				E45D8F52239CA57A00C3C3C6 /* 卡耐基.jpg */,
+				E45D8F53239CA57A00C3C3C6 /* 车尔尼雪夫斯基.jpg */,
+				E45D8F54239CA57A00C3C3C6 /* 周恩来.jpg */,
+				E45D8F55239CA57A00C3C3C6 /* 鲁迅.jpg */,
+			);
+			path = "名人头像";
+			sourceTree = "<group>";
+		};
+		E45D8F5F239CA58000C3C3C6 /* 会员标 */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F60239CA58000C3C3C6 /* 会员.png */,
+			);
+			path = "会员标";
+			sourceTree = "<group>";
+		};
+		E45D8F62239CC9B600C3C3C6 /* 内容照片 */ = {
+			isa = PBXGroup;
+			children = (
+				E45D8F63239CCA3700C3C3C6 /* content_柳宗元.jpg */,
+			);
+			path = "内容照片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45D8EFD239C9C4E00C3C3C6 /* UITableViewCell自适应高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45D8F2A239C9C5000C3C3C6 /* Build configuration list for PBXNativeTarget "UITableViewCell自适应高度" */;
+			buildPhases = (
+				E45D8EFA239C9C4E00C3C3C6 /* Sources */,
+				E45D8EFB239C9C4E00C3C3C6 /* Frameworks */,
+				E45D8EFC239C9C4E00C3C3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableViewCell自适应高度";
+			productName = "UITableViewCell自适应高度";
+			productReference = E45D8EFE239C9C4E00C3C3C6 /* UITableViewCell自适应高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45D8F15239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45D8F2D239C9C5000C3C3C6 /* Build configuration list for PBXNativeTarget "UITableViewCell自适应高度Tests" */;
+			buildPhases = (
+				E45D8F12239C9C5000C3C3C6 /* Sources */,
+				E45D8F13239C9C5000C3C3C6 /* Frameworks */,
+				E45D8F14239C9C5000C3C3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45D8F18239C9C5000C3C3C6 /* PBXTargetDependency */,
+			);
+			name = "UITableViewCell自适应高度Tests";
+			productName = "UITableViewCell自适应高度Tests";
+			productReference = E45D8F16239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E45D8F20239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45D8F30239C9C5000C3C3C6 /* Build configuration list for PBXNativeTarget "UITableViewCell自适应高度UITests" */;
+			buildPhases = (
+				E45D8F1D239C9C5000C3C3C6 /* Sources */,
+				E45D8F1E239C9C5000C3C3C6 /* Frameworks */,
+				E45D8F1F239C9C5000C3C3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45D8F23239C9C5000C3C3C6 /* PBXTargetDependency */,
+			);
+			name = "UITableViewCell自适应高度UITests";
+			productName = "UITableViewCell自适应高度UITests";
+			productReference = E45D8F21239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45D8EF6239C9C4E00C3C3C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = fujia;
+				TargetAttributes = {
+					E45D8EFD239C9C4E00C3C3C6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E45D8F15239C9C5000C3C3C6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E45D8EFD239C9C4E00C3C3C6;
+					};
+					E45D8F20239C9C5000C3C3C6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E45D8EFD239C9C4E00C3C3C6;
+					};
+				};
+			};
+			buildConfigurationList = E45D8EF9239C9C4E00C3C3C6 /* Build configuration list for PBXProject "UITableViewCell自适应高度" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45D8EF5239C9C4E00C3C3C6;
+			productRefGroup = E45D8EFF239C9C4E00C3C3C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45D8EFD239C9C4E00C3C3C6 /* UITableViewCell自适应高度 */,
+				E45D8F15239C9C5000C3C3C6 /* UITableViewCell自适应高度Tests */,
+				E45D8F20239C9C5000C3C3C6 /* UITableViewCell自适应高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45D8EFC239C9C4E00C3C3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D8F5E239CA57A00C3C3C6 /* 鲁迅.jpg in Resources */,
+				E45D8F5D239CA57A00C3C3C6 /* 周恩来.jpg in Resources */,
+				E45D8F0E239C9C5000C3C3C6 /* LaunchScreen.storyboard in Resources */,
+				E45D8F61239CA58000C3C3C6 /* 会员.png in Resources */,
+				E45D8F58239CA57A00C3C3C6 /* 柳宗元.jpg in Resources */,
+				E45D8F5C239CA57A00C3C3C6 /* 车尔尼雪夫斯基.jpg in Resources */,
+				E45D8F56239CA57A00C3C3C6 /* 莎士比亚.jpg in Resources */,
+				E45D8F5B239CA57A00C3C3C6 /* 卡耐基.jpg in Resources */,
+				E45D8F0B239C9C5000C3C3C6 /* Assets.xcassets in Resources */,
+				E45D8F57239CA57A00C3C3C6 /* 契诃夫.jpg in Resources */,
+				E45D8F59239CA57A00C3C3C6 /* 列宁.jpg in Resources */,
+				E45D8F5A239CA57A00C3C3C6 /* 佛洛伊德.jpg in Resources */,
+				E45D8F40239C9EAE00C3C3C6 /* Quotes.plist in Resources */,
+				E45D8F09239C9C4E00C3C3C6 /* Main.storyboard in Resources */,
+				E45D8F64239CCA3700C3C3C6 /* content_柳宗元.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D8F14239C9C5000C3C3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D8F1F239C9C5000C3C3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45D8EFA239C9C4E00C3C3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D8F06239C9C4E00C3C3C6 /* ViewController.m in Sources */,
+				E45D8F3E239C9E6800C3C3C6 /* StatusesFrame.m in Sources */,
+				E45D8F11239C9C5000C3C3C6 /* main.m in Sources */,
+				E45D8F3B239C9DFE00C3C3C6 /* StatusesCell.m in Sources */,
+				E45D8F03239C9C4E00C3C3C6 /* AppDelegate.m in Sources */,
+				E45D8F36239C9D9F00C3C3C6 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D8F12239C9C5000C3C3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D8F1B239C9C5000C3C3C6 /* UITableViewCell_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D8F1D239C9C5000C3C3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D8F26239C9C5000C3C3C6 /* UITableViewCell_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45D8F18239C9C5000C3C3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45D8EFD239C9C4E00C3C3C6 /* UITableViewCell自适应高度 */;
+			targetProxy = E45D8F17239C9C5000C3C3C6 /* PBXContainerItemProxy */;
+		};
+		E45D8F23239C9C5000C3C3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45D8EFD239C9C4E00C3C3C6 /* UITableViewCell自适应高度 */;
+			targetProxy = E45D8F22239C9C5000C3C3C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45D8F07239C9C4E00C3C3C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45D8F08239C9C4E00C3C3C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E45D8F0C239C9C5000C3C3C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45D8F0D239C9C5000C3C3C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45D8F28239C9C5000C3C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45D8F29239C9C5000C3C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45D8F2B239C9C5000C3C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableViewCell自适应高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fujia.UITableViewCell-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E45D8F2C239C9C5000C3C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableViewCell自适应高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fujia.UITableViewCell-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E45D8F2E239C9C5000C3C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableViewCell自适应高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fujia.UITableViewCell-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewCell自适应高度.app/UITableViewCell自适应高度";
+			};
+			name = Debug;
+		};
+		E45D8F2F239C9C5000C3C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableViewCell自适应高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fujia.UITableViewCell-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewCell自适应高度.app/UITableViewCell自适应高度";
+			};
+			name = Release;
+		};
+		E45D8F31239C9C5000C3C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableViewCell自适应高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fujia.UITableViewCell-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UITableViewCell自适应高度";
+			};
+			name = Debug;
+		};
+		E45D8F32239C9C5000C3C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UITableViewCell自适应高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fujia.UITableViewCell-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UITableViewCell自适应高度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45D8EF9239C9C4E00C3C3C6 /* Build configuration list for PBXProject "UITableViewCell自适应高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D8F28239C9C5000C3C3C6 /* Debug */,
+				E45D8F29239C9C5000C3C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45D8F2A239C9C5000C3C3C6 /* Build configuration list for PBXNativeTarget "UITableViewCell自适应高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D8F2B239C9C5000C3C3C6 /* Debug */,
+				E45D8F2C239C9C5000C3C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45D8F2D239C9C5000C3C3C6 /* Build configuration list for PBXNativeTarget "UITableViewCell自适应高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D8F2E239C9C5000C3C3C6 /* Debug */,
+				E45D8F2F239C9C5000C3C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45D8F30239C9C5000C3C3C6 /* Build configuration list for PBXNativeTarget "UITableViewCell自适应高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D8F31239C9C5000C3C3C6 /* Debug */,
+				E45D8F32239C9C5000C3C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45D8EF6239C9C4E00C3C3C6 /* Project object */;
+}

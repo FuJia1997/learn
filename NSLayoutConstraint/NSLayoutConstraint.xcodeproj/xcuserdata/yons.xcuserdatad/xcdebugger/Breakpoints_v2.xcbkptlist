@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UITableView cell&#x590d;&#x7528;/ViewController.m"
-            timestampString = "597465975.144451"
+            filePath = "NSLayoutConstraint/ViewController.m"
+            timestampString = "597386089.531626"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-dataArray"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-setConstraint"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UITableView cell&#x590d;&#x7528;/ViewController.m"
-            timestampString = "597465975.144671"
+            filePath = "NSLayoutConstraint/ViewController.m"
+            timestampString = "597386089.531846"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "-setHeadView"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-setConstraint"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
