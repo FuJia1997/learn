@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>detail</key>
+	<dict>
+		<key>title</key>
+		<string>西安财经大学</string>
+	</dict>
+	<key>picture</key>
+	<array>
+		<string>风景_1.jpg</string>
+		<string>风景_2.jpg</string>
+		<string>风景_3.jpg</string>
+		<string>风景_4.jpg</string>
+		<string>风景_5.jpg</string>
+		<string>风景_6.jpg</string>
+		<string>风景_7.jpg</string>
+	</array>
+</dict>
+</plist>
